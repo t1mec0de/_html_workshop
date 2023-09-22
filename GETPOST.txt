@@ -27,12 +27,14 @@ Content-Length: 66
 
 {"st.name":"Viktor,"st.surname:"Kozorez","age":"20","id":"80379","faculty":"Comp.Sc"}
 
- ||GITHUB ACTIVITY ||
+ ||GITHUB ACTIVITY || TASK 3
 
 <form id="form" method="GET" action="scriptname.php">
-  <label for="fname">First name:</label>
-  <input type="text" id="fname" name="fname">
-  <label for="lname">Last name:</label>
-  <input type="text" id="lname" name="lname">
+  <label for="bank1">Number of Credit:</label>
+  <input type="text" id="bank1" name="bank1">
+  <label for="bank2">The Date:</label>
+  <input type="text" id="bank2" name="bank2">
+  <label for="cvc">CVC or CVC2:</label>
+  <input type="text" id="cvc" name="cvc">
   <input type="submit" value="Submit">
 </form>
