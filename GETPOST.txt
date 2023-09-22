@@ -26,3 +26,13 @@ Content-Type: application/json
 Content-Length: 66
 
 {"st.name":"Viktor,"st.surname:"Kozorez","age":"20","id":"80379","faculty":"Comp.Sc"}
+
+ ||GITHUB ACTIVITY ||
+
+<form id="form" method="GET" action="scriptname.php">
+  <label for="fname">First name:</label>
+  <input type="text" id="fname" name="fname">
+  <label for="lname">Last name:</label>
+  <input type="text" id="lname" name="lname">
+  <input type="submit" value="Submit">
+</form>
