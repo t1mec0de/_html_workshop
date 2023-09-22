@@ -38,3 +38,17 @@ Content-Length: 66
   <input type="text" id="cvc" name="cvc">
   <input type="submit" value="Submit">
 </form>
+
+||_______||
+
+<form action="/login" method="POST">
+	<input type="text" id="loginId" name="login" placeholder="name">
+        <input type="password" id="pass[loginId]" name="password" placeholder="surname">
+        	<br />
+        	<div style="display: flex; flex-direction: row">
+          	  <input type="checkbox" id="saveInfo" name="remember">
+          	  <p>Remember me</p> 
+        	</div>
+        <input type="tel" name="telnum" placeholder="+371">
+	<input type="submit" value="Submit">
+</form>
