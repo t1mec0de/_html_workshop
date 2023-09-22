@@ -43,13 +43,12 @@ Content-Length: 66
 
 <form action="/login" method="POST">
 	<title><iframe src="https://https://www.youtube.com/watch?v=bG2BmmYr9NQ"></iframe></title>
-	<input type="text" id="loginId" name="login" placeholder="name">
+	<input type="text" id="loginId" name="final" placeholder="name">
         <input type="password" id="pass[loginId]" name="password" placeholder="surname">
         	<br />
         	<div style="display: flex; flex-direction: row">
-          	  <input type="checkbox" id="saveInfo" name="remember">
-          	  <p>Remember me</p> 
+          	  <input type="checkbox" id="saveInfo" name="register">
+          	  <p>Register</p> 
         	</div>
-        <input type="tel" name="telnum" placeholder="+371">
 	<input type="submit" value="Submit">
 </form>
