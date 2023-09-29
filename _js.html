@@ -54,6 +54,12 @@
             color: #ffffff;
             background: #050505;
         }
+        
+        img {
+            width: 60 px;
+            height: 60px;
+            align-content: center;
+        }
     </style>
 
 </head>
@@ -63,9 +69,16 @@
         <div class="block">
             <form name="form-btn">
                 <input type="text" placeholder="Email">
-                <button type="submit">Subscribe</button>
+                <button type="submit">Subcribe</button>
             </form>
         </div>
+    </div>
+    <br>
+    <div>
+        <form>
+            <img id="myImage" src="piwo.jpg">
+            <input type="button" value="Click Me" onclick="moveRight();" />
+        </form>
     </div>
 </body>
 <script>
@@ -78,6 +91,21 @@
     myBtn.addEventListener('mouseout', function() {
         myBtn.classList.remove('new-color-btn');
     });
+    <!--
+    var imgObj = null;
+
+    function init() {
+        imgObj = document.getElementById('myImage');
+        imgObj.style.position = 'relative';
+        imgObj.style.left = '0px';
+    }
+
+    function moveRight() {
+        imgObj.style.left = parseInt(imgObj.style.left) + 10 + 'px';
+    }
+
+    window.onload = init;
+    //-->
 </script>
 
 </html>
