@@ -1,0 +1,49 @@
+body {
+  margin: 20px;
+  background-color:#852584;
+}
+p.bold {
+  font-weight: 900;
+  color:#DCDD68;
+}
+p.italic {
+ font-style: italic;
+  color:#68DCDD;
+}
+h1 {
+   text-align: center;
+   color:#DD68DC;
+   font-family: "Fantasy", fantasy;
+
+   }
+p.uniqie {
+   text-align: center;
+   font-size:20px;
+   }
+p.pre {
+ font-style: italic;
+ font-weight: 900;
+
+   }
+ul.clear
+   {
+   margin-left: 0; 
+   padding-left: 0;
+   font-style:italic;
+   
+   } 
+li {
+  color:#A2DD68;
+    list-style-type: none;
+}
+
+h2{
+	font-family: Garamond, serif;
+     color:#68DDA3;
+}
+
+p{
+	font-family:Arial, Helvetica, sans-serif
+      font-size:12px;
+  	color:#3ED440;
+}
